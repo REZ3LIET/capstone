@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="https://www.ros.org/wiki/xacro" name="spray_paint_robot">
 
-    <xacro:include filename="robot_core.xacro"/>
+    <xacro:include filename="$(find capstone_description)/urdf/robot_core.xacro"/>
 
-    <xacro:include filename="lidar.xacro"/>
+    <xacro:include filename="$(find capstone_description)/urdf/lidar.xacro"/>
 
 </robot>
